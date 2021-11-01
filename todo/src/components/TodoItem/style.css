@@ -1,0 +1,26 @@
+.todoItem {
+  width: 100%;
+  background-color: gray;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+
+.editTask{
+  display: flex;
+}
+
+.editTask h4{
+  margin-left: 1rem;
+}
+
+.deleteBtn:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.changeBtn:hover {
+  color: white;
+  cursor: pointer;
+}
